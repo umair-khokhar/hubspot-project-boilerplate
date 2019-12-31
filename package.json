@@ -10,8 +10,8 @@
     "eslint": "eslint src",
     "lint": "eslint src && prettier --list-different 'src/**/*.js' 'src/**/*.json'",
     "prettier:write": "prettier --write 'src/**/*.js' 'src/**/*.json'",
-    "watch": "npx hs watch --portal=6907925 src helloworld",
-    "fetch": "npx hs fetch --portal=6907925 helloworld src"
+    "watch": "npx hs watch src helloworld",
+    "fetch": "npx hs fetch helloworld src"
   },
   "devDependencies": {
     "@hubspot/cms-cli": "^1.0.2",
