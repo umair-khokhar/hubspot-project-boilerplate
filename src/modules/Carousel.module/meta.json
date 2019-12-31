@@ -1,14 +1,22 @@
 {
   "content_tags" : [ ],
-  "css_assets" : [ ],
+  "css_assets" : [ {
+    "name" : "owl.carousel.css",
+    "autoload" : true,
+    "path" : "/helloworld/css/owl.carousel.css"
+  } ],
   "external_js" : [ ],
   "extra_classes" : "",
   "global" : false,
   "host_template_types" : [ "PAGE" ],
   "icon" : "https://cdn2.hubspot.net/hubfs/6326501/boilerplate/Module%20Icons/external-link-alt-solid.svg",
-  "js_assets" : [ ],
+  "js_assets" : [ {
+    "name" : "owl.carousel.js",
+    "autoload" : true,
+    "path" : "/helloworld/js/owl.carousel.js"
+  } ],
   "other_assets" : [ ],
   "smart_type" : "NOT_SMART",
-  "module_id" : 23867511825,
+  "module_id" : 23929251392,
   "is_available_for_new_content" : true
 }
