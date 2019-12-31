@@ -1,0 +1,13 @@
+# package directories
+node_modules
+
+
+.vscode
+.webpack
+.c9/
+npm-debug.log
+package-lock.json
+webpack.config.js
+.github
+.eslintrc
+.gitignore

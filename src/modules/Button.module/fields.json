@@ -1,0 +1,25 @@
+[ {
+  "id" : "63401428-3ed8-3c00-c54d-6afe0b638160",
+  "name" : "link_text",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Learn More"
+}, {
+  "id" : "c55505bc-b3d4-80d7-2be8-d7aa23168348",
+  "name" : "link_url",
+  "label" : "URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+  "type" : "url",
+  "default" : {
+    "type" : "EXTERNAL",
+    "href" : "https://www.hubbase.io",
+    "content_id" : null
+  }
+} ]

@@ -1,0 +1,16 @@
+<div class="owl-carousel owl-theme">
+
+{% for item in module.carousel_image %}
+	{% if item.src %}
+		{% set sizeAttrs = 'width="{{ item.width }}" height="{{ item.height }}"' %}
+		{% if item.size_type == 'auto' %}
+			{% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+		{% elif item.size_type == 'auto_custom_max' %}
+			{% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.max_width }}px; max-height: {{ item.max_height }}px"' %}
+		{% endif %}
+		<div>
+      <img src="{{ item.src }}" alt="{{ item.alt }}" {{ sizeAttrs }}>
+    </div>
+	{% endif %}
+{% endfor %}
+</div>

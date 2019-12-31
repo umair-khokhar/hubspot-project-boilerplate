@@ -1,0 +1,21 @@
+{
+  "name": "hubspot-cms-helloworld",
+  "version": "1.0.0",
+  "description": "A helloworld to demonstrate HubSpot CMS local development",
+  "main": "index.js",
+  "repository": "https://github.com/umair-khokhar/hubspot-cms-helloworld",
+  "author": "Umair Khokhar",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint src",
+    "lint": "eslint src && prettier --list-different 'src/**/*.js' 'src/**/*.json'",
+    "prettier:write": "prettier --write 'src/**/*.js' 'src/**/*.json'",
+    "watch": "npx hs watch --portal=6907925 src helloworld",
+    "fetch": "npx hs fetch --portal=6907925 helloworld src"
+  },
+  "devDependencies": {
+    "@hubspot/cms-cli": "^1.0.2",
+    "eslint": "^6.3.0",
+    "js-yaml": "^3.13.1"
+  }
+}

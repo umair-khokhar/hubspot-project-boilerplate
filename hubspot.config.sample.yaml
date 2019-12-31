@@ -1,0 +1,11 @@
+portals:
+  - portalId: 
+      authType: 
+      auth:
+      clientId: 
+      clientSecret: 
+      scopes:
+      tokenInfo:
+        expiresAt: 
+        refreshToken: 
+        accessToken: 
