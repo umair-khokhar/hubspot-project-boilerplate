@@ -5,13 +5,13 @@
 {% extends "./layouts/base.html" %}
 {% block body %}
     <main role="main" class="inner cover">
-      {% module_block module "heading_text" path="@hubspot/rich_text" label="Heading", no_wrapper=True %}
+      {% module_block module "heading_text" path="@hubspot/rich_text" label="Heading" %}
         {% module_attribute "html" %}
           <h1 class="cover-heading">Heading Goes Here</h1>
         {% end_module_attribute %}
       {% end_module_block %}
       <p class="lead">
-        {% module_block module "description_text" path="@hubspot/rich_text" label="Description", no_wrapper=True %}
+        {% module_block module "description_text" path="@hubspot/rich_text" label="Description" %}
           {% module_attribute "html" %}
             Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
           {% end_module_attribute %}
