@@ -11,11 +11,14 @@
     "lint": "eslint src && prettier --list-different 'src/**/*.js' 'src/**/*.json'",
     "prettier:write": "prettier --write 'src/**/*.js' 'src/**/*.json'",
     "watch": "npx hs watch src theme2020",
-    "fetch": "npx hs fetch theme2020 src"
+    "fetch": "npx hs fetch theme2020 src --overwrite"
   },
   "devDependencies": {
     "@hubspot/cms-cli": "^1.0.2",
     "eslint": "^6.3.0",
     "js-yaml": "^3.13.1"
+  },
+  "dependencies": {
+    "nvm": "0.0.4"
   }
 }
