@@ -13,7 +13,7 @@
   "js_assets" : [ {
     "name" : "owl.carousel.js",
     "autoload" : true,
-    "path" : "/helloworld/js/owl.carousel.js"
+    "path" : "/theme2020/js/owl.carousel.js"
   } ],
   "other_assets" : [ ],
   "smart_type" : "NOT_SMART",
