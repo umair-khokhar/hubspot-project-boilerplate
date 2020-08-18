@@ -1,0 +1,14 @@
+{
+  "label": "Cool Theme",
+  "preview_path": "./templates/home-page.html",
+  "screenshot_path":"./images/templates/homepage.jpg",
+  "enable_domain_stylesheets": false,
+  "version":"1.0",
+  "author":{
+    "name":"Jon McLaren",
+    "email":"noreply@hubspot.com",
+    "url":"https://theme-provider.com/"
+  },
+  "documentation_url":"https://theme-provider.com/cool-theme/documentation",
+  "example_url":"https://theme-provider.com/cool-theme/demo"
+}
